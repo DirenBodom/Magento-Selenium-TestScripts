@@ -17,7 +17,7 @@ public class Main {
 		
 		// Run tests for Home page
 		Home home = new Home(driver);
-		home.runAllTests();
+		home.womenMenuTab();
 		
 		driver.close();
 	}
